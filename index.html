@@ -30,7 +30,7 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Nada</a>
+        <a class="nav-link" href="#logo">Logo</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Nada</a>
@@ -47,7 +47,7 @@
     <div class="col-sm-4">
       <h2>Acerca de mí</h2>
       <h5>Foto de perfil</h5>
-      <img src="">
+      <img src="./img/foto.jpg">
       <p>Estudiante de 1º de ASIR-B</p>
       <h3>Links de interés</h3>
       <ul class="nav nav-pills flex-column">
@@ -64,11 +64,26 @@
       <hr class="d-sm-none">
     </div>
     <div class="col-sm-8">
-      <h2>Imagen vectorial SVG</h2>
+      <h2 id="logo">Imagen vectorial SVG</h2>
       <h5>Tarea de evaluación de SVG, 12/01/2021</h5>
-      <img src="">
+          <svg xmlns="http://www.w3.org/2000/svg" 
+         xmlns:xlink="http//www.w3.org/1999/xlink" 
+         version="1.1"
+         width="300" heigth="300"
+         baseProfile="full"
+         viewBox="-0 -0 180 180">
+            <circle cx="0" cy="0" r="90" style="opacity:1"; fill="blue"/>
+            <circle cx="0" cy="0" r="75" style="opacity:1"; fill="orange"; stroke="red"/>
+            <line x1="160"    y1="100"    x2="-150"    y2="-100"    style="stroke:blue"/>
+            <line x1="140"    y1="100"    x2="-150"    y2="-100"    style="stroke:red"/>
+            <line x1="120"    y1="100"    x2="-150"    y2="-100"    style="stroke:blue"/>
+            <text x="75" y="75" transform=*/ font-family="Arial" font-size="10px">
+              <animateTransform attributeName="transform" begin="0s" dur="5s" type="translate" from="-90 30" to="90 30" repeatCount="indefinite"/>
+              Teaching Sun</text>    
+         </svg>
       <p>Imagen SVG</p>
-      <p>Texto explicativo</p>
+      <p>Como temática de este logo se ha escogido el Sol, por su representatividad como factor iluminador en la vida y la posibilidad de emplearlo como metáfora educativa. 
+        En lo referente a los colores empleados, la combinación azul-naraja aporta un toque llamativo y atractivo.</p>
       <br>
       <h2>TITLE HEADING</h2>
       <h5>Title description, Sep 2, 2017</h5>
