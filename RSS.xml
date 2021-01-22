@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<rss version="2.0″>
+<channel>
+    <title>Portfolio de Víctor J. Doncel Carretero</title>
+    <language>es-es</language>
+    <link>https://a20docavi.github.io/LMGE/</link>
+    <author>Víctor J. Doncel Carretero</author>
+    <description>Portfolio digital donde se ubican las praácticas de LMGE</description>
+    <copyright>CC 4.0 – BY-SA<copyright
+    <skipDays><day>sábado</day><day>domingo</day></skipDays>
+    <skipHours><hour>18</hour><hour>19</hour><hour>20</hour><hour>21</hour><hour>22</hour></skipHours>
+    <webmaster>a20docavi@iesgrancapitan.org</webmaster>
+    <managingEditor>a20docavi@iesgrancapitan.org</managingEditor>
+    <pubDate>Enero 14, 2021</pubDate>
+  
+      <item>
+        <title>Imagen vectorial SVG</title>
+        <link>https://a20docavi.github.io/LMGE/#logo</link>
+        <description>Imagen SVG animada creada mediante código XML</description>
+        <author>Víctor J. Doncel Carretero</author>
+        <pubDate>Enero 15, 2021</pubDate>
+        <image>
+            <url>https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/SVG_logo.svg/1200px-SVG_logo.svg.png</url>
+            <title>SVG</title>
+            <link>https://a20docavi.github.io/LMGE/#logo</link>
+        </image>
+      </item>  
+      
+       <item>
+        <title>Imagen svg</title>
+        <link>https://a20docavi.github.io/LMGE/#inkscape</link>
+        <description>Imagen SVG realizada con Inkscare</description>
+        <author>Víctor J. Doncel Carretero</author>
+        <pubDate>Enero 19, 2021</pubDate>
+         <image>
+            <url>https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Inkscape_Logo.svg/1200px-Inkscape_Logo.svg.png</url>
+            <title>Inkscare</title>
+            <link>https://a20docavi.github.io/LMGE/#inkscape</link>
+        </image>
+      </item>  
+      
+</channel>
+</rss>
